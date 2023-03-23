@@ -55,4 +55,6 @@ oc create deployment hello-node --image=k8s.gcr.io/e2e-test-images/agnhost:2.33 
 
 oc create -f mlb/test-frr-svc.yaml
 
+sleep 10
 
+curl http://192.168.155.151:9001/
