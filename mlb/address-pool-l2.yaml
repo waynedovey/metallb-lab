@@ -1,0 +1,13 @@
+apiVersion: metallb.io/v1beta1
+kind: AddressPool
+metadata:
+  name: address-pool-l2
+  namespace: metallb-system
+spec:
+  addresses:
+  - 192.168.1.150/32
+  - 192.168.1.151/32
+  - 192.168.1.152/32
+  - 192.168.1.153/32
+  - 192.168.1.154/32
+  - 192.168.1.155/32
